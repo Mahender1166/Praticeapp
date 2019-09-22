@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title> Hotel tip & tax rate calculator </title>
+</head>
+<CENTER>
+
+
+<body>
+        <br></br>
+        <h1>Maitre D</h1><br></br>
+        <h5>
+            <fieldset>
+                <label>Total : </label>
+                <input id="bill" type="number" placeholder="0.00" name="bill">$<br></br>
+            </fieldset>
+
+            <fieldset>
+                <label>Tip : $
+                </label>
+                <span id="tipAmount">0.00</span>
+                <br></br>
+            </fieldset>
+
+            <fieldset>
+                <label>Rate :  %</label>
+                <input id="rate"  type="number" placeholder="0.00" >
+                </br></br>
+            </fieldset>
+
+            <fieldset>
+                 <label>Tax : $</label>
+                 <span id="taxAmount">0.00</span>
+                </br></br>
+            </fieldset>
+
+            <fieldset>
+
+                <label>Grand Total : $ </label>
+                <span id="grandAmount">0.00</span>
+                <br></br>
+            </fieldset>
+            
+            <button  id= "cal" value="Calculate" >Calculate</button>
+               
+        </h5>
+    
+
+   
+</CENTER>
+<script src="javaScript.js"></script>
+</body>
+
+</html>
